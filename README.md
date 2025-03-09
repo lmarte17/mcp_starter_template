@@ -22,7 +22,7 @@ The Model Context Protocol (MCP) allows AI assistants to interact with external 
 1. Clone this repository to use as a starting point:
 
 ```bash
-git clone https://github.com/your-username/mcp-starter-template.git
+git clone https://github.com/lmarte17/mcp-starter-template.git
 cd mcp-starter-template
 ```
 

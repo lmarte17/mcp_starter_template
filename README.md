@@ -54,7 +54,7 @@ yarn start
 
 - `src/index.ts` - The main entry point for your MCP server
 - `src/` - Directory for your server's source code
-- `dist/` - Output directory for compiled code (created after building)
+- `build/` - Output directory for compiled code (created after building)
 
 ## Creating Your Own Tools
 

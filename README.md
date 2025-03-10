@@ -26,7 +26,23 @@ git clone https://github.com/lmarte17/mcp_starter_template.git
 cd mcp_starter_template
 ```
 
-2. Install dependencies:
+2. **Delete the .git directory** to start with a clean Git history for your project:
+
+```bash
+# On macOS/Linux
+rm -rf .git
+
+# On Windows (Command Prompt)
+rmdir /s /q .git
+```
+
+3. Initialize a new Git repository (optional):
+
+```bash
+git init
+```
+
+4. Install dependencies:
 
 ```bash
 npm install
@@ -34,7 +50,7 @@ npm install
 yarn install
 ```
 
-3. Build the TypeScript code:
+5. Build the TypeScript code:
 
 ```bash
 npm run build
@@ -42,7 +58,7 @@ npm run build
 yarn build
 ```
 
-4. Run the server:
+6. Run the server:
 
 ```bash
 npm start
